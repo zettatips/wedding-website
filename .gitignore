@@ -37,3 +37,5 @@ typings/
 *.css.map
 psd
 node_modules
+.vscode
+.nojekyll
