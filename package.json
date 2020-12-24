@@ -1,0 +1,33 @@
+{
+  "name": "wedding-website",
+  "version": "1.0.1",
+  "description": "A wedding website with loads of features.",
+  "main": "npmfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:zettatips/wedding-website.git"
+  },
+  "keywords": [
+    "wedding",
+    "template",
+    "website template"
+  ],
+  "author": "Mark Jue",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/zettatips/wedding-website",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^5.0.0",
+    "waypoints": "^4.0.1"
+  }
+}
