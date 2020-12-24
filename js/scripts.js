@@ -197,10 +197,10 @@ $(document).ready(function () {
             end: new Date('Jan 16, 2021 16:00'),
 
             // Event Address
-            address: 'ITC Fortune Park Hotel, Kolkata',
+            address: 'Dewan Jubli Perak PERHEBAT, Sg Buloh',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues, please contact Mr. Amit Roy at +91 9876543210."
+            description: "We can't wait to see you on our big day."
         }
     });
 
@@ -218,7 +218,7 @@ $(document).ready(function () {
             && MD5($('#invite_code').val()) !== '2ac7f43695eb0479d5846bb38eec59cc') {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
         } else {
-            $.post('https://script.google.com/macros/s/AKfycbzUqz44wOat0DiGjRV1gUnRf4HRqlRARWggjvHKWvqniP7eVDG-/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbyVKuh6lWsgbVmWbzdW_djbufFP-G7DrcWDu-8DBlSaeg_UPwRu/exec', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {
