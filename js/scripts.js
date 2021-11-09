@@ -186,17 +186,17 @@ $(document).ready(function () {
             title: "Zul and Adilah's Wedding",
 
             // Event start date
-            start: new Date('Jan 16, 2021 12:00'),
+            start: new Date('Nov 27, 2021 12:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Jan 16, 2021 16:00'),
+            end: new Date('Nov 27, 2021 16:00'),
 
             // Event Address
-            address: 'Dewan Jubli Perak PERHEBAT, Sg Buloh',
+            address: 'Dewan Meranti 2, Sg Buloh',
 
             // Event Description
             description: "We can't wait to see you on our big day."
@@ -240,7 +240,7 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var location = {lat: 3.2037587, lng: 101.5730945};
+    var location = {lat: 3.2179, lng: 101.5656};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: location,
@@ -254,7 +254,7 @@ function initMap() {
 }
 
 function initBBSRMap() {
-    var la_fiesta = {lat: 3.2037587, lng: 101.5730945};
+    var la_fiesta = {lat: 3.2179, lng: 101.5656};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: la_fiesta,
