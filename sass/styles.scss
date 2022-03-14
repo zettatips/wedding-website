@@ -336,7 +336,7 @@ header {
         }
       }
       &:last-child a {
-        padding-right: 0px;
+        padding-right: 0;
       }
     }
   }
@@ -390,7 +390,7 @@ Intro
 .intro-icon {
   display: inline-block;
   vertical-align: top;
-  padding: 6px 0 0 0;
+  padding: 6px 0 0;
   margin-right: 20px;
   width: 40px;
 }
@@ -421,7 +421,7 @@ Features-stack
     padding-bottom: 0;
   }
   h3 {
-    margin: 0 0 20px 0;
+    margin: 0 0 20px;
   }
   span.icon {
     font-size: 35px;
@@ -431,7 +431,7 @@ Features-stack
   .feature-icon {
     display: inline-block;
     vertical-align: top;
-    padding: 6px 0 0 0;
+    padding: 6px 0 0;
     margin-right: 20px;
     width: 35px;
   }
@@ -442,7 +442,7 @@ Features-stack
   .intro-icon {
     display: inline-block;
     vertical-align: top;
-    padding: 6px 0 0 0;
+    padding: 6px 0 0;
     margin-right: 20px;
   }
   .intro-content {
@@ -458,7 +458,7 @@ Features-stack
     border-bottom: solid 1px $keyline-color;
   }
   ul.features-stack li:last-child {
-    padding-bottom: 0px;
+    padding-bottom: 0;
     border-bottom: none;
   }
   .ipad-wrap {
@@ -530,7 +530,7 @@ Features-stack
   }
   h2 {
     color: #fff;
-    margin: 0 0 20px 0;
+    margin: 0 0 20px;
   }
   p {
     color: #ACB1B4;
