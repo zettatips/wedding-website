@@ -88,7 +88,7 @@
     }
 
     nav a.login {
-        margin-right: 0px;
+        margin-right: 0;
     }
 
     nav ul.primary-nav {
@@ -248,7 +248,7 @@
     }
 
     footer .footer-links {
-        margin: 120px 0 120px 0;
+        margin: 120px 0;
     }
 }
 
@@ -286,7 +286,7 @@
     }
 
     footer .footer-links {
-        margin: 50px 0 50px 0;
+        margin: 50px 0;
     }
 
 }
@@ -315,7 +315,7 @@
     }
 
     .btn-margin-right {
-        margin-right: 0px;
+        margin-right: 0;
     }
 
     .features .device-showcase-left {
