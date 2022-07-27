@@ -38,4 +38,4 @@ typings/
 psd
 .vscode
 .nojekyll
-node_modules
+/node_modules
